@@ -3,8 +3,22 @@ var canvas = canvasDiv.getContext('2d');
 canvas.fillStyle = "#a56f1d"
 /* square */
 canvas.fillRect(300, 450, 200, 200);
+/* door */
+canvas.fillStyle = "black"
+canvas.fillRect(380, 580, 50, 100);
+/* window */
+canvas.fillRect(330, 500, 45, 30);
+canvas.fillRect(430, 500, 45, 30);
+/* door handle */
+canvas.beginPath();
+canvas.arc(390, 610, 5, 0, 2*Math.PI);
+canvas.closePath();
+canvas.fillStyle = "white"
+canvas.fill();
+canvas.stroke();
 
 /* square second house */
+canvas.fillStyle = "#a56f1d"
 canvas.fillRect(800, 450, 200, 200);
 canvas.fillRect(1000, 350, 150, 300);
 /* door */

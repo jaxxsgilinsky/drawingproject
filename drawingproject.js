@@ -66,12 +66,26 @@ canvas.fill();
 canvas.stroke();
 
 
-/* triangle */
+/* triangle roof*/
 canvas.fillStyle = "black"
 canvas.beginPath();
 canvas.moveTo(255,450);
 canvas.lineTo(545,450);
 canvas.lineTo(400,320);
+canvas.fill();
+/* triangle roof 2 */
+canvas.fillStyle = "black"
+canvas.beginPath();
+canvas.moveTo(755,450);
+canvas.lineTo(1045,450);
+canvas.lineTo(900,320);
+canvas.fill();
+/* triangle roof 3 */
+canvas.fillStyle = "black"
+canvas.beginPath();
+canvas.moveTo(955,375);
+canvas.lineTo(1200,375);
+canvas.lineTo(1090,290);
 canvas.fill();
 
 /* circle sun */

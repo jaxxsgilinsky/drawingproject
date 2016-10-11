@@ -69,9 +69,9 @@ canvas.stroke();
 /* triangle */
 canvas.fillStyle = "black"
 canvas.beginPath();
-canvas.moveTo(120,60);
-canvas.lineTo(60,60);
-canvas.lineTo(90,20);
+canvas.moveTo(255,450);
+canvas.lineTo(545,450);
+canvas.lineTo(400,320);
 canvas.fill();
 
 /* circle sun */
